@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="main">
+        <h2 id="title">Calculadora</h2>
+        <input type="number" name="Number 1" id="n1" placeholder="Digite um número">
+        <input type="number" name="Number 2" id="n2" placeholder="Digite outro número">
+        <button id="btn_soma" onclick="calculo('soma')">Somar</button>
+        <button id="btn_sub" onclick="calculo('sub')">Subtrair</button>
+        <button id="btn_mult" onclick="calculo('mult')">Multiplicar</button>
+        <button id="btn_div" onclick="calculo('div')">Dividir</button>
+        <div id="resposta"></div>
+    </div>
+</body>
+</html>
